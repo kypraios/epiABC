@@ -1,0 +1,3 @@
+importFrom("stats", "rgamma", "rgeom", "rbinom", "rexp", "runif",  "dnorm", "rnorm", "rpois")
+importFrom("graphics", "hist")
+exportPattern("*")

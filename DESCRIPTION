@@ -1,0 +1,9 @@
+Package: epiABC
+Type: Package
+Title: ABC methods for infectious disease epidemics
+Version: 0.1
+Date: 2016-06-21
+Author: Theodore Kypraios, Peter Neal and Dennis Prangle
+Description: ABC for epidemics
+License: GPL-3
+LazyData: no
