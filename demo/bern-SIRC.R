@@ -1,7 +1,7 @@
 library(epiABC)
 sin=proc.time()
 
-N=1000
+N=10000
 OUT=matrix(0,ncol=89,nrow=N)
 PARA=matrix(0,ncol=5,nrow=N)
 
@@ -15,6 +15,7 @@ Xout=bernSIRC(89,beta,gamma,p,40)
 OUT[i,]=Xout$output
 PARA[i,]=c(p,beta,gamma,Xout$count,OUT[i,Xout$count])
 }
+
 
 sout=proc.time()
 sout-sin
